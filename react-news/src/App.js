@@ -116,7 +116,8 @@ function App() {
 
     return (
         <div className="appWrapper">
-            <h1>Today's News For A Better Tomorrow</h1>
+            <h1>First Call</h1>
+            <h2>Today's News For A Better Tomorrow</h2>
             <NewsList pageNo={pageNo} pageSize={pageSize} articles={articles} />
             <div className="actions">
                 <button
