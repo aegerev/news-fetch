@@ -14,3 +14,5 @@ function newsList(props) {
         <div className="newsListWrapper">{articles} </div>
     )
 }
+
+export default newsList;
