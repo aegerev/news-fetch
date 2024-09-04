@@ -108,7 +108,7 @@ function App() {
     if (loading) {
         return (
             <div className="appWrapper">
-                <h1>Today's News</h1>
+                <h1>Today's News For A Better Tomorrow</h1>
                 <p style={{ marginTop: "2rem" }}>Loading...</p>
             </div>
         );
@@ -116,7 +116,7 @@ function App() {
 
     return (
         <div className="appWrapper">
-            <h1>Today's News</h1>
+            <h1>Today's News For A Better Tomorrow</h1>
             <NewsList pageNo={pageNo} pageSize={pageSize} articles={articles} />
             <div className="actions">
                 <button

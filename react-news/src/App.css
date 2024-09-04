@@ -5,7 +5,7 @@
 
 .newsListWrapper {
   margin: 2rem auto 0;
-  background-color: #fcc2d7;
+  background-color: #0000FF;
   max-width: 60vw;
   list-style: none;
   padding: 2rem;
@@ -15,7 +15,7 @@
  .newsItemWrapper {
   padding: 1rem;
   color: white;
-  background-color: #f06595;
+  background-color: #7093DB;
   text-align-last: left;
   display: flex;
   flex-direction: column;
@@ -26,9 +26,13 @@
   margin-bottom: 1rem;
  }
 
+ h1 {
+  color: #38B0DE;
+ }
+
  .button {
   text-decoration: none;
-  background-color: #a61e4d;
+  background-color: #FF0000;
   color: white;
   padding: 0.5rem 1rem;
   width: fit-content;
@@ -39,7 +43,7 @@
   padding: 3rem 0;
   width: 100vw;
   min-height: 100vh;
-  background-color: #fff0f6;
+  background-color: #3232CD;
   text-align: center;
 }
 
