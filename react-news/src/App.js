@@ -84,7 +84,7 @@ function App() {
     useEffect(() => {
         async function fetchArticles() {
             setLoading(true);
-            const response = await fetch('https://api.mediastack.com/v1/news?access_key=6976065f99d0696dde4a2c9869d151b3&pageSize=25');
+            const response = await fetch('https://newsapi.org/v2/everything?q=usa&apiKey=bf71948eaf464bf484aaac2b0d155999&pageSize=25');
          
             const data = await response.json();
             if (data.status === "ok") {
