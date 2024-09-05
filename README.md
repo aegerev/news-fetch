@@ -12,10 +12,14 @@ This project was created so that people could read the news without being distra
     * fetch()
     * newsAPI.org (https://newsapi.org/)
 
-### Deployment
+## Deployment
+Unfortunately, newsAPI.org does not allow me to publish the news onto Github Pages. In order for me to do that, I have to upgrade to a paid subscription. :(
 
-You can learn more here: ()
+Therefore, the most you can do is the following:
+   1. Clone the repository
+   2. install the necessary dependencies using npm install
+   3. Go to the "react-news" folder
+   4. Start up the server using npm start.
 
-### `npm run build` fails to minify
+I apologize for the inconvenience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
