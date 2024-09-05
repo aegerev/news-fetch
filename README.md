@@ -17,8 +17,8 @@ Unfortunately, newsAPI.org does not allow me to publish the news onto Github Pag
 
 Therefore, the most you can do is the following:
    1. Clone the repository
-   2. install the necessary dependencies using npm install
-   3. Go to the "react-news" folder
+   2. Go to the "react-news" folder
+   3. install the necessary dependencies using npm install
    4. Start up the server using npm start.
 
 I apologize for the inconvenience.
